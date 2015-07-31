@@ -1,0 +1,19 @@
+{
+  "app": {
+    "name": "papayalabs",
+	"title": "Focus on Simplicity and Function"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "porfolio": "Portfolio",
+    "contact": "Contact",
+	"spanish": "Spanish",
+	"english": "English"
+  },
+  "greywrap": {
+    "last_tech_title": "Latest Technology",
+	"last_tech_description": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "app": {
+    "name": "papayalabs",
+	"title": "Enfocados en Simplicidad y Funcionalidad"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "porfolio": "Portafolio",
+    "contact": "Contacto",
+	"spanish": "Español",
+	"english": "Ingles"
+  },
+  "greywrap": {
+    "last_tech_title": "Tecnología de Punta",
+	"last_tech_description": "Trabajamos con la mejor y ultima tecnología para la web. HTML5, Javascript y Ruby son nuestras herramientas para crear la magia."
+  }
+}
