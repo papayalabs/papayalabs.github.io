@@ -5,7 +5,7 @@
  * Project Name: SHIELD - Free Bootstrap 3 Theme
  * Version: 1.0
  * Date: 02-11-2013
- * URL: http://blacktie.co/
+ * URL: http://blacktie.co/ color:3498db
  */
 
 
@@ -114,6 +114,17 @@ margin-left: -15px;
 	background: #2b2b2b;
 }
 
+.navbar {
+    position: relative;
+    min-height: 65px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-inverse {
+	border-color: transparent;
+	background-color: #ffffff;	
+}
 
 .navbar-default {
 border-color: transparent;
