@@ -14,12 +14,38 @@
   },
   "greywrap": {
     "title_1": "Latest Technology",
-    "description_1": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic."
+    "description_1": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic.",
+    "title_2": "Latest Technology",
+    "description_2": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic.",
+    "title_3": "Latest Technology",
+    "description_3": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic."
   },
   "about": {
     "about_title": "A LITTLE ABOUT US",
-    "about_description_1": "A LITTLE ABOUT ME",
-    "about_description_2": "A LITTLE ABOUT ME"
+    "about_description_1": "We believe ideas come from everyone, everywhere. In fact, at BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design. We’re big believers in doing right by our neighbors. After all, we grew up in the Twin Cities and we believe this place has much to offer. So we do what we can to support the community we love.",
+    "about_description_2": "Over the past four years, we’ve provided more than $1 million in combined cash and pro bono support to Way to Grow, an early childhood education and nonprofit organization. Other community giving involvement throughout our agency history includes pro bono work for more than 13 organizations, direct giving, a scholarship program through the Minneapolis College of Art & Design, board memberships, and ongoing participation in the Keystone Club, which gives five percent of our company’s earnings back to the community each year."
+
+  },
+  "services": {
+    "title": "A LITTLE ABOUT US",
+    "description_1": "We believe ideas come from everyone, everywhere. In fact, at BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design. We’re big believers in doing right by our neighbors. After all, we grew up in the Twin Cities and we believe this place has much to offer. So we do what we can to support the community we love.",
+    "description_2": "Over the past four years, we’ve provided more than $1 million in combined cash and pro bono support to Way to Grow, an early childhood education and nonprofit organization. Other community giving involvement throughout our agency history includes pro bono work for more than 13 organizations, direct giving, a scholarship program through the Minneapolis College of Art & Design, board memberships, and ongoing participation in the Keystone Club, which gives five percent of our company’s earnings back to the community each year.",
+    "description_3": "We believe ideas come from everyone, everywhere. In fact, at BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design. We’re big believers in doing right by our neighbors. After all, we grew up in the Twin Cities and we believe this place has much to offer. So we do what we can to support the community we love."
+  },
+  "divider_1": {
+    "divider_title": "DESIGN EXPAND BOUNDARIES",
+    "divider_description": "To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity."
+  },
+  "divider_2": {
+    "divider_title": "DESIGN SOLVE PROBLEMS ijole",
+    "divider_description": "To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity."
+  },
+  "divider_3": {
+    "divider_title": "DESIGN IS AN INTERACTION",
+    "divider_description": "To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity."
+  },
+  "portfolio": {
+    "title": "WE CREATE COOL STUFF"
   },
   "footerwrap": {
     "created_by": "Created by Papaya Labs - Copyright 2015"
