@@ -1,7 +1,10 @@
 {
   "app": {
     "name": "papayalabs",
-	"title": "Enfocados en Simplicidad & Funcionalidad"
+    "title": "Enfocados en Simplicidad & Funcionalidad",
+    "made_in": "Hecho con amor en Caracas, Venezuela",
+    "address": "Monroy a Tracabordo, Edif. San Ignacio, P.B.",
+    "phone": "+58 (212) 577 6801"
   },
   "nav": {
     "home": "Inicio",

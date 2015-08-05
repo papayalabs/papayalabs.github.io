@@ -15,6 +15,9 @@ if (location.search) {
      $(".nav").i18n();
      $('#appname').text($.t('app.name'));
      $('#apptitle').text($.t('app.title'));
+     $('#made_in').text($.t('app.made_in'));
+     $('#address').text($.t('app.address'));
+     $('#phone').text($.t('app.phone'));
      $('#greywrap_litle_1').text($.t('greywrap.title_1'));
      $('#greywrap_description_1').text($.t('greywrap.description_1'));
      $('#greywrap_litle_2').text($.t('greywrap.title_2'));
@@ -32,7 +35,11 @@ if (location.search) {
      $('#divider_description_3').text($.t('divider_3.divider_description'));
      $('#portfolio_title').text($.t('portfolio.title'));
      $('#portfolio_take_a_look').text($.t('portfolio.take_a_look'));
+     $('#portfolio_take_a_look_2').text($.t('portfolio.take_a_look'));
+     $('#portfolio_take_a_look_3').text($.t('portfolio.take_a_look'));
      $('#portfolio_visite_site').text($.t('portfolio.visite_site'));
+     $('#portfolio_visite_site_2').text($.t('portfolio.visite_site'));
+     $('#portfolio_visite_site_3').text($.t('portfolio.visite_site'));
      $('#portfolio_name_1').text($.t('portfolio.name_1'));
      $('#portfolio_description_1').text($.t('portfolio.description_1'));
      $('#portfolio_name_2').text($.t('portfolio.name_2'));
@@ -43,5 +50,6 @@ if (location.search) {
      $('#services_description_1').text($.t('services.description_1'));
      $('#services_description_2').text($.t('services.description_2'));
      $('#services_description_3').text($.t('services.description_3'));
+
   });
  });
