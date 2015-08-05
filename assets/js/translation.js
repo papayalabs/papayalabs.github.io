@@ -31,6 +31,14 @@ if (location.search) {
      $('#divider_title_3').text($.t('divider_3.divider_title'));
      $('#divider_description_3').text($.t('divider_3.divider_description'));
      $('#portfolio_title').text($.t('portfolio.title'));
+     $('#portfolio_take_a_look').text($.t('portfolio.take_a_look'));
+     $('#portfolio_visite_site').text($.t('portfolio.visite_site'));
+     $('#portfolio_name_1').text($.t('portfolio.name_1'));
+     $('#portfolio_description_1').text($.t('portfolio.description_1'));
+     $('#portfolio_name_2').text($.t('portfolio.name_2'));
+     $('#portfolio_description_2').text($.t('portfolio.description_2'));
+     $('#portfolio_name_3').text($.t('portfolio.name_3'));
+     $('#portfolio_description_3').text($.t('portfolio.description_3'));
      $('#services_title').text($.t('services.title'));
      $('#services_description_1').text($.t('services.description_1'));
      $('#services_description_2').text($.t('services.description_2'));

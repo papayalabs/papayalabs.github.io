@@ -45,8 +45,16 @@
     "divider_description": "To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity."
   },
   "portfolio": {
-    "title": "WE CREATE COOL STUFF"
-  },
+    "title": "WE CREATE COOL STUFF",
+    "take_a_look": "Take a look",
+    "visite_site": "Visite Site",
+    "name_1": "CLIENTE ESPECIAL",
+    "description_1": "Cliente Especial is a very simple service created to work in the cloud for small companies to create, manage and print tax retentions documents.",
+    "name_2": "PYMENTA",
+    "description_2": "Pymenta es un Sistema ERP muy simple diseñado para trabajar en la nube que permite a las pequeñas compañias crear, administrar e imprimir documentos ( facturas, notas, presupuestos, notas de creditos, etc). Tambien puede administrar almacenes, proveedores, clientes, productos e inventario.",
+    "name_3": "SPACE_INVADERS",
+    "description_3": "Space Invaders Clone"
+ },
   "footerwrap": {
     "created_by": "Created by Papaya Labs - Copyright 2015"
   }
