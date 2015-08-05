@@ -15,7 +15,8 @@ if (location.search) {
      $(".nav").i18n();
      $('#appname').text($.t('app.name'));
      $('#apptitle').text($.t('app.title'));
-     $('#greywrap_last_tech_litle').text($.t('greywrap.last_tech_title'));
-     $('#greywrap_last_tech_description').text($.t('greywrap.last_tech_description'));
+     $('#greywrap_litle_1').text($.t('greywrap.title_1'));
+     $('#greywrap_description_1').text($.t('greywrap.description_1'));
+     $('#about_title').text($.t('about.about_title'));
   });
  });

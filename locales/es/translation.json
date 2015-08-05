@@ -1,11 +1,11 @@
 {
   "app": {
     "name": "papayalabs",
-	"title": "Enfocados en Simplicidad y Funcionalidad"
+	"title": "Enfocados en Simplicidad & Funcionalidad"
   },
   "nav": {
     "home": "Inicio",
-    "about": "Nosotros",
+    "about": "Sobre Nosotros",
     "services": "Servicios",
     "porfolio": "Portafolio",
     "contact": "Contacto",
@@ -13,7 +13,15 @@
 	"english": "Ingles"
   },
   "greywrap": {
-    "last_tech_title": "Tecnología de Punta",
-	"last_tech_description": "Trabajamos con la mejor y ultima tecnología para la web. HTML5, Javascript y Ruby son nuestras herramientas para crear la magia."
+    "title_1": "Tecnología de Punta",
+    "description_1": "Trabajamos con la mejor y ultima tecnología para la web. HTML5, Javascript y Ruby son nuestras herramientas para crear la magia."
+  },
+  "about": {
+    "about_title": "UN POCO SOBRE NOSOTROS",
+    "about_description_1": "UN POCO SOBRE MI",
+    "about_description_2": "UN POCO SOBRE MI"
+  },
+  "footerwrap": {
+    "created_by": "Creado por Papaya Labs - Copyright 2015"
   }
 }

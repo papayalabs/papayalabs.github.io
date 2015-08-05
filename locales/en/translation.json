@@ -1,11 +1,11 @@
 {
   "app": {
     "name": "papayalabs",
-	"title": "Focus on Simplicity and Function"
+	"title": "Focus on Simplicity & Function"
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About us",
     "services": "Services",
     "porfolio": "Portfolio",
     "contact": "Contact",
@@ -13,7 +13,15 @@
 	"english": "English"
   },
   "greywrap": {
-    "last_tech_title": "Latest Technology",
-	"last_tech_description": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic."
+    "title_1": "Latest Technology",
+    "description_1": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic."
+  },
+  "about": {
+    "about_title": "A LITTLE ABOUT US",
+    "about_description_1": "A LITTLE ABOUT ME",
+    "about_description_2": "A LITTLE ABOUT ME"
+  },
+  "footerwrap": {
+    "created_by": "Created by Papaya Labs - Copyright 2015"
   }
 }
