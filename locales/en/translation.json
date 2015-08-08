@@ -5,7 +5,9 @@
     "made_in": "OUR PLAYGROUND IS THE WORLD",
     "address": "Monroy a Tracabordo, Edif. San Ignacio, P.B.",
     "phone": "+58 (212) 577 6801",
-    "thanks": "THANKS FOR VISITING US"
+    "thanks": "THANKS FOR VISITING US",
+    "contact_info": "Contact Information",
+    "created_by": "Created by Papaya Labs - Copyright 2015"
   },
   "nav": {
     "home": "Home",
@@ -58,8 +60,5 @@
     "description_2": "Pymenta es un Sistema ERP muy simple diseñado para trabajar en la nube que permite a las pequeñas compañias crear, administrar e imprimir documentos ( facturas, notas, presupuestos, notas de creditos, etc). Tambien puede administrar almacenes, proveedores, clientes, productos e inventario.",
     "name_3": "SPACE INVADERS",
     "description_3": "Space Invaders Clone"
- },
-  "footerwrap": {
-    "created_by": "Created by Papaya Labs - Copyright 2015"
-  }
+ }
 }

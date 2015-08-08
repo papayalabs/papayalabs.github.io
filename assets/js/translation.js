@@ -19,6 +19,8 @@ if (location.search) {
      $('#address').text($.t('app.address'));
      $('#phone').text($.t('app.phone'));
      $('#thanks').text($.t('app.thanks'));
+     $('#created_by').text($.t('app.created_by'));
+     $('#contact_info').text($.t('app.contact_info'));
      $('#greywrap_litle_1').text($.t('greywrap.title_1'));
      $('#greywrap_description_1').text($.t('greywrap.description_1'));
      $('#greywrap_litle_2').text($.t('greywrap.title_2'));
