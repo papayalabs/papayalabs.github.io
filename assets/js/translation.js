@@ -16,11 +16,7 @@ if (location.search) {
      $('#appname').text($.t('app.name'));
      $('#apptitle').text($.t('app.title'));
      $('#made_in').text($.t('app.made_in'));
-     $('#address').text($.t('app.address'));
-     $('#phone').text($.t('app.phone'));
-     $('#thanks').text($.t('app.thanks'));
      $('#created_by').text($.t('app.created_by'));
-     $('#contact_info').text($.t('app.contact_info'));
      $('#greywrap_litle_1').text($.t('greywrap.title_1'));
      $('#greywrap_description_1').text($.t('greywrap.description_1'));
      $('#greywrap_litle_2').text($.t('greywrap.title_2'));
@@ -53,6 +49,14 @@ if (location.search) {
      $('#services_description_1').text($.t('services.description_1'));
      $('#services_description_2').text($.t('services.description_2'));
      $('#services_description_3').text($.t('services.description_3'));
+     $('#address').text($.t('contact.address'));
+     $('#phone').text($.t('contact.phone'));
+     $('#thanks').text($.t('contact.thanks'));
+     $('#contact_info').text($.t('contact.contact_info'));
+     $('#title_1').text($.t('contact.title_1'));
+     $('#title_2').text($.t('contact.title_2'));
+     $('#description_1').text($.t('contact.description_1'));
+     $('#description_2').text($.t('contact.description_2'));
 
   });
  });

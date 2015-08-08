@@ -3,10 +3,6 @@
     "name": "papayalabs",
     "title": "Enfocados en Simplicidad & Funcionalidad",
     "made_in": "NUESTRO PATIO DE JUEGOS ES EL MUNDO",
-    "address": "Monroy a Tracabordo, Edif. San Ignacio, P.B.",
-    "phone": "+58 (212) 577 6801",
-    "thanks": "GRACIAS POR VISITARNOS",
-    "contact_info": "Informacion de Contacto",
     "created_by": "Creado por Papaya Labs - Copyright 2015"
   },
   "nav": {
@@ -59,5 +55,15 @@
     "description_2": "Pymenta es un Sistema ERP muy simple diseñado para trabajar en la nube que permite a las pequeñas compañias crear, administrar e imprimir documentos ( facturas, notas, presupuestos, notas de creditos, etc). Tambien puede administrar almacenes, proveedores, clientes, productos e inventario.",
     "name_3": "SPACE INVADERS",
     "description_3": "Space Invaders Clone"  
-   }
+   },
+  "contact": {
+    "address": "Monroy a Tracabordo, Edif. San Ignacio, P.B.",
+    "phone": "+58 (212) 577 6801",
+    "thanks": "GRACIAS POR VISITARNOS",
+    "contact_info": "Informacion de Contacto",
+    "title_1": "Periodico",
+    "description_1": "Register to our newsletter and be updated with the latests information regarding our services, offers and much more.",
+    "title_2": "Support Us",
+    "description_2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  }
 }
