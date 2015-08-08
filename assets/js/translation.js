@@ -18,6 +18,7 @@ if (location.search) {
      $('#made_in').text($.t('app.made_in'));
      $('#address').text($.t('app.address'));
      $('#phone').text($.t('app.phone'));
+     $('#thanks').text($.t('app.thanks'));
      $('#greywrap_litle_1').text($.t('greywrap.title_1'));
      $('#greywrap_description_1').text($.t('greywrap.description_1'));
      $('#greywrap_litle_2').text($.t('greywrap.title_2'));
