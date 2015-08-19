@@ -2,7 +2,7 @@
   "app": {
     "name": "papayalabs",
     "title": "Focus on Simplicity & Function",
-    "made_in": "OUR PLAYGROUND IS THE WORLD",
+    "made_in": "MY PLAYGROUND IS THE WORLD",
     "created_by": "Created by Papaya Labs - Copyright 2015"
   },
   "nav": {
@@ -16,11 +16,11 @@
   },
   "greywrap": {
     "title_1": "Latest Technology",
-    "description_1": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic.",
+    "description_1": "I work with the lastest and best technology for the web. HTML5, Javascript and Ruby are my tools to make magic.",
     "title_2": "Problem Solving",
     "description_2": "We can't solve problems by using the same kind of thinking we used when we created them. Here is that diferent kind of thinking.",
     "title_3": "Love for simplicity",
-    "description_3": "We love to make the simples and beatiful solutions for our projects. This an art, because we take care the whole without sacrifice the details."
+    "description_3": "In the balance is the beaty. And in the balance between design and functionality create beatiful solutions that doesn´t hurt"
   },
   "about": {
     "about_title": "ABOUT THIS LABORATORY",
