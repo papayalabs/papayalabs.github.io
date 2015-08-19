@@ -2,7 +2,7 @@
   "app": {
     "name": "papayalabs",
     "title": "Enfocado en Simplicidad & Funcionalidad",
-    "made_in": "NUESTRO PATIO DE JUEGOS ES EL MUNDO",
+    "made_in": "MI PATIO DE JUEGOS ES EL MUNDO",
     "created_by": "Creado por Papaya Labs - Copyright 2015"
   },
   "nav": {
@@ -11,12 +11,12 @@
     "services": "Servicios",
     "porfolio": "Portafolio",
     "contact": "Contacto",
-	"spanish": "EspaÃ±ol",
+	"spanish": "Español",
 	"english": "Ingles"
   },
   "greywrap": {
-    "title_1": "TecnologÃ­a de Punta",
-    "description_1": "Trabajo con la mejor y ultima tecnologÃ­a para la web. HTML5, Javascript y Ruby son mis herramientas para crear la magia.",
+    "title_1": "Tecnología de Punta",
+    "description_1": "Trabajo con la mejor y ultima tecnología para la web. HTML5, Javascript y Ruby son mis herramientas para crear la magia.",
     "title_2": "Resolución de Problemas",
     "description_2": "No podemos resolver problemas usando el mismo tipo de pensamiento que usamos cuando los creamos. Aquí está ese tipo diferente de pensamiento",
     "title_3": "Amo la Simplicidad",
