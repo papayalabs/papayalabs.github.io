@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "papayalabs",
-    "title": "Enfocados en Simplicidad & Funcionalidad",
+    "title": "Enfocado en Simplicidad & Funcionalidad",
     "made_in": "NUESTRO PATIO DE JUEGOS ES EL MUNDO",
     "created_by": "Creado por Papaya Labs - Copyright 2015"
   },
@@ -11,17 +11,17 @@
     "services": "Servicios",
     "porfolio": "Portafolio",
     "contact": "Contacto",
-	"spanish": "Español",
+	"spanish": "EspaÃ±ol",
 	"english": "Ingles"
   },
   "greywrap": {
-    "title_1": "Tecnología de Punta",
-    "description_1": "Trabajamos con la mejor y ultima tecnología para la web. HTML5, Javascript y Ruby son nuestras herramientas para crear la magia.",
-    "title_2": "Resoluci�n de Problemas",
-    "description_2": "No podemos resolver problemas usando el mismo tipo de pensamiento que usamos cuando los creamos. Aqu� est� ese tipo diferente de pensamiento",
-    "title_3": "Amamos la Simplicidad",
-    "description_3": "Amamos hacer simples y hermosas soluciones para nuestros proyectos. Esto es un arte, porque tenemos cuidado del todo sin sacrificar los detalles."
-  },
+    "title_1": "TecnologÃ­a de Punta",
+    "description_1": "Trabajo con la mejor y ultima tecnologÃ­a para la web. HTML5, Javascript y Ruby son mis herramientas para crear la magia.",
+    "title_2": "Resolución de Problemas",
+    "description_2": "No podemos resolver problemas usando el mismo tipo de pensamiento que usamos cuando los creamos. Aquí está ese tipo diferente de pensamiento",
+    "title_3": "Amo la Simplicidad",
+    "description_3": "La belleza esta en el balance de las cosas. Y el balance entre el diseño y la funcionalidad crea bellas soluciones que no hacen daño al usarlas"
+    },
   "about": {
     "about_title": "SOBRE ESTE LABORATORIO",
     "about_description_1": "En Construccion.",
@@ -50,9 +50,9 @@
     "take_a_look": "Echa un vistazo",
     "visite_site": "Visita la pagina",
     "name_1": "CLIENTE ESPECIAL",
-    "description_1": "Cliente Especial es un sistema muy simple dise�ado para trabajar en la nube y creado para que peque�as empresas bajo el r�gimen de contribuyentes especiales puedan crear, administrar e imprimir sus retenciones de IVA.",
+    "description_1": "Cliente Especial es un sistema muy simple diseñado para trabajar en la nube y creado para que pequeñas empresas bajo el régimen de contribuyentes especiales puedan crear, administrar e imprimir sus retenciones de IVA.",
     "name_2": "PYMENTA",
-    "description_2": "Pymenta es un Sistema ERP muy simple dise�ado para trabajar en la nube que permite a las peque�as compa�ias crear, administrar e imprimir documentos ( facturas, notas, presupuestos, notas de creditos, etc). Tambien puede administrar almacenes, proveedores, clientes, productos e inventario.",
+    "description_2": "Pymenta es un Sistema ERP muy simple diseñado para trabajar en la nube que permite a las pequeñas compañias crear, administrar e imprimir documentos ( facturas, notas, presupuestos, notas de creditos, etc). Tambien puede administrar almacenes, proveedores, clientes, productos e inventario.",
     "name_3": "VOLUNTEER SYSTEM",
     "description_3": "Sistema de Voluntarios para la Fundacion la Tortuga. Con este sistemas los voluntarios se pueden registrar, entrar en proyectos e imprimir sus reportes de trabajo",
     "name_4": "SPACE INVADERS",
