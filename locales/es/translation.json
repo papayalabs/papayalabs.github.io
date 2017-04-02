@@ -1,13 +1,13 @@
 {
   "app": {
     "name": "papayalabs",
-    "title": "Enfocados en Simplicidad & Funcionalidad",
-    "made_in": "NUESTRO PATIO DE JUEGOS ES EL MUNDO",
+    "title": "Enfoque en Simplicidad & Creatividad",
+    "made_in": "MI PATIO DE JUEGOS ES EL MUNDO",
     "created_by": "Creado por Papaya Labs - Copyright 2015"
   },
   "nav": {
     "home": "Inicio",
-    "about": "Sobre este Lab",
+    "about": "Sobre mi",
     "services": "Servicios",
     "porfolio": "Portafolio",
     "contact": "Contacto",
@@ -16,16 +16,16 @@
   },
   "greywrap": {
     "title_1": "Tecnología de Punta",
-    "description_1": "Trabajamos con la mejor y ultima tecnología para la web. HTML5, Javascript y Ruby son nuestras herramientas para crear la magia.",
+    "description_1": "Trabajo con la mejor y ultima tecnología para la web. Uso Ruby on Rails para el Backend, Javascript para el Frondend y Phaser.js para el desarrollo de juegos HTML5",
     "title_2": "Resolución de Problemas",
     "description_2": "No podemos resolver problemas usando el mismo tipo de pensamiento que usamos cuando los creamos. Aquí está ese tipo diferente de pensamiento",
-    "title_3": "Amamos la Simplicidad",
-    "description_3": "La belleza esta en el balance de las cosas. Y el balance entre el diseño y la funcionalidad crea bellas soluciones que no hacen daño al usarlas"
+    "title_3": "Amo la Simplicidad",
+    "description_3": "La belleza esta en el balance de las cosas. Y el balance entre el diseño creativo y la funcionalidad crea bellas soluciones que amaras al usarlas"
     },
   "about": {
-    "about_title": "SOBRE ESTE LABORATORIO",
-    "about_description_1": "En Construccion.",
-    "about_description_2": "En Construccion."
+    "about_title": "SOBRE MI Y ESTE ESPACIO",
+    "about_description_1": "Me gradue de Ingeniero Electrónico en el 2000. He estado programando desde los tiempos de BASIC y MS DOS. Después de muchos años de experiencia y tecnologías usadas prefiero usar hoy en día Ruby y Javascript. Y centrarme en el desarrollo web creativo. Aparte de programar me apasiona dibujar y pintar.",
+    "about_description_2": "Papaya Labs es mi espacio de trabajo, usualmente hago freelance solo pero a veces colaboro en este espacio con otros programadores y diseñadores para construir un proyecto."
   },
   "services": {
     "title": "SERVICIOS",
@@ -34,15 +34,15 @@
     "description_3": "En Construccion."
   },
   "divider_1": {
-    "divider_title": "SOLUCIONAMOS PROBLEMAS",
-    "divider_description": "En Construccion."
+    "divider_title": "SOLUCIONO PROBLEMAS",
+    "divider_description": ""
   },
   "divider_2": {
-    "divider_title": "CREAMOS COSAS INTERESANTES",
+    "divider_title": "ME GUSTA CREAR COSAS INTERESANTES",
     "divider_description": ""
   },
   "divider_3": {
-    "divider_title": "CREAMOS COSAS INTERESANTES",
+    "divider_title": "CREO COSAS INTERESANTES",
     "divider_description": ""
   },
   "portfolio": {

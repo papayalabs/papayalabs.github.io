@@ -1,13 +1,13 @@
 {
   "app": {
     "name": "papayalabs",
-    "title": "Focus on Simplicity & Function",
-    "made_in": "OUR PLAYGROUND IS THE WORLD",
+    "title": "Focus on Simplicity & Creativity",
+    "made_in": "MY PLAYGROUND IS THE WORLD",
     "created_by": "Created by Papaya Labs - Copyright 2015"
   },
   "nav": {
     "home": "Home",
-    "about": "About this Lab",
+    "about": "About me",
     "services": "Services",
     "porfolio": "Portfolio",
     "contact": "Contact",
@@ -16,17 +16,16 @@
   },
   "greywrap": {
     "title_1": "Latest Technology",
-    "description_1": "We work with the lastest and best technology for the web. HTML5, Javascript and Ruby are our tools to make magic.",
+    "description_1": "I work with the lastest and best technology for the web. I use Ruby on Rails for the Backend, Javascript for the Frontend and Phaser.js for HTML5 game developement.",
     "title_2": "Problem Solving",
     "description_2": "We can't solve problems by using the same kind of thinking we used when we created them. Here is that diferent kind of thinking.",
     "title_3": "Love for simplicity",
-    "description_3": "In the balance is the beauty. And in the balance between design and functionality create beautiful solutions that doesn´t hurt"
+    "description_3": "The beauty is in the balance of things. And in the balance between creative design and functionality create beautiful solutions that you will love to use"
   },
   "about": {
-    "about_title": "ABOUT THIS LABORATORY",
-    "about_description_1": "Under Construction.",
-    "about_description_2": "Under Construction."
-
+    "about_title": "ABOUT ME AND THIS SPACE",
+    "about_description_1": "I graduated as an Electronic Engineer in 2000. I have been programming since BASIC and MS DOS. After many years of experience and used technologies I prefer to use Ruby and Javascript today. And focus on creative web development. Apart from programming I am passionate about drawing and painting.",
+    "about_description_2": "Papaya Labs is my workspace, I usually do freelance alone but sometimes I collaborate in this space with other programmers and designers to build a project."
   },
   "services": {
     "title": "SERVICES",
@@ -35,11 +34,11 @@
     "description_3": "Under Construction."
   },
   "divider_1": {
-    "divider_title": "WE SOLVE PROBLEMS",
-    "divider_description": "Under Construction."
+    "divider_title": "I SOLVE PROBLEMS",
+    "divider_description": ""
   },
   "divider_2": {
-    "divider_title": "WE CREATE COOL STUFF",
+    "divider_title": "I LIKE TO CREATE COOL STUFF",
     "divider_description": ""
   },
   "divider_3": {
