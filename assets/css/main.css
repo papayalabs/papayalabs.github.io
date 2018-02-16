@@ -236,18 +236,21 @@ blockquote cite:before {
 .overflow-image {
     margin-top: -65px;
 }
-.img-black-white {
+img {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
       -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition: all .8s ease-in-out;  
+      -webkit-transition: all 1s ease-in-out;  
     }
-.img-black-white:hover {
+img:hover {
     filter: none;
       -webkit-filter: grayscale(0);
-      -webkit-transform: scale(1.01);
     }
 
+.img-color {
+    filter: none;
+      -webkit-filter: grayscale(0);
+}
 /* Links */
 a {
     color: #3498db;
