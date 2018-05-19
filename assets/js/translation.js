@@ -25,7 +25,7 @@ if (location.search) {
      $('#greywrap_description_3').text($.t('greywrap.description_3'));
      $('#about_title').text($.t('about.about_title'));
      $('#about_description_1').text($.t('about.about_description_1'));
-     $('#about_description_2').text($.t('about.about_description_2'));
+     $('#about_description_2').html($.t('about.about_description_2'));
      $('#divider_title_1').text($.t('divider_1.divider_title'));
      $('#divider_description_1').text($.t('divider_1.divider_description'));
      $('#divider_title_2').text($.t('divider_2.divider_title'));
