@@ -53,14 +53,8 @@
     "description_1": "Exhibio Virtual Component® es un componente prefabricado hecho en Unity que permite mostrar una galería de exhibición virtual en una sala modelada en 3D. Estan integradas las funcionalidades de instrucciones, información de la exposición, recorrido automático, pantalla completa y envío de mensajes.",
     "name_2": "PYMENTA",
     "description_2": "Pymenta es un Sistema ERP muy simple diseñado para trabajar en la nube que permite a las pequeñas compañias crear, administrar e imprimir documentos ( facturas, notas, presupuestos, notas de creditos, etc). Tambien puede administrar almacenes, proveedores, clientes, productos e inventario.",
-    "name_3": "UNITY CAPTCHA GEM",
-    "description_3": "Unity Captcha is una gema de Rails que usa dos nivels de captcha basado en los hemisferios del cerebro.",
-    "name_4": "SPACE INVADERS",
-    "description_4": "Space Invaders Clone",
-    "name_5": "PAPAYA LABS",
-    "description_5": "Papaya Labs Website",
-    "name_6": "HOMEOAGORA",
-    "description_6": "Encuentro de Iguales"  
+    "name_3": "HOMEOAGORA",
+    "description_3": "Encuentro de Iguales"  
    },
   "contact": {
     "address": "Gomez Farias 105, Coyoacan, Mexico",
