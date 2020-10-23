@@ -28,7 +28,7 @@
     "about_description_2": "Papaya Labs is my workspace, I usually do freelance alone but sometimes I collaborate in this space with other programmers and designers to build a project. If you want to know more about my work history you can download my CV in spanish <a href=\"https://papayalabs.github.io/assets/CV-ES.pdf\"> here </a> or in english <a href=\"https://papayalabs.github.io/assets/CV-EN.pdf\"> here </a> or connect with me in Linkedin <a href=\"https://www.linkedin.com/in/papayalabs\">  here </a>. Also you can hire me throught Upwork <a href=\"https://www.upwork.com/freelancers/~01886fab95c875b01d\">  here </a>"
   },
   "services": {
-    "title": "SERVICES",
+    "title": "CLIENTS",
     "description_1": "Under Construction.",
     "description_2": "Under Construction.",
     "description_3": "Under Construction."
@@ -46,7 +46,7 @@
     "divider_description": ""
   },
   "portfolio": {
-    "title": "PORTFOLIO",
+    "title": "PROYECTS",
     "take_a_look": "Take a look",
     "visite_site": "Visite Site",
     "name_1": "EXHIBIO",
