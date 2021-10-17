@@ -62,6 +62,7 @@ if (location.search) {
      $('#services_description_2').text($.t('services.description_2'));
      $('#services_description_3').text($.t('services.description_3'));
      $('#address').text($.t('contact.address'));
+     $('#register_code').text($.t('contact.register_code'));
      $('#phone').text($.t('contact.phone'));
      $('#thanks').text($.t('contact.thanks'));
      $('#contact_info').text($.t('contact.contact_info'));
