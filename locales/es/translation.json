@@ -1,13 +1,13 @@
 {
   "app": {
     "name": "papayalabs",
-    "title": "Enfoque en Simplicidad & Creatividad",
-    "made_in": "MI PATIO DE JUEGOS ES EL MUNDO",
-    "created_by": "Creado por Papaya Labs - Copyright 2015-2020"
+    "title": "Proyectos Humanos para un nuevo mundo",
+    "made_in": "NUESTRO PATIO DE JUEGOS ES EL MUNDO",
+    "created_by": "Papayalabs OÜ © All Rights Reserved - Copyright 2021"
   },
   "nav": {
     "home": "Inicio",
-    "about": "Sobre mi",
+    "about": "Sobre nosotros",
     "services": "Clientes",
     "porfolio": "Proyectos",
     "contact": "Contacto",
@@ -15,17 +15,17 @@
 	"english": "Ingles"
   },
   "greywrap": {
-    "title_1": "Tecnología de Punta",
-    "description_1": "Trabajo con la mejor y ultima tecnología para la web. Uso Ruby on Rails para el Backend, Javascript para el Frondend y C#/Unity para el desarrollo de videojuegos y realidad virtual.",
-    "title_2": "Resolución de Problemas",
-    "description_2": "No podemos resolver problemas usando el mismo tipo de pensamiento que usamos cuando los creamos. Aquí está ese tipo diferente de pensamiento",
-    "title_3": "Amo la Simplicidad",
+    "title_1": "Humanidad",
+    "description_1": "Un ingrediente básico que necesita tener todos los proyectos en los que nos involucramos es que sirva para la evolución de la humanidad sobre la economía o cualquier sistema de creencia.",
+    "title_2": "Creatividad",
+    "description_2": "No podemos resolver problemas usando el mismo tipo de pensamiento que usamos cuando los creamos. Aquí está ese nuevo y diferente tipo de pensamiento",
+    "title_3": "Simplicidad",
     "description_3": "La belleza esta en el balance de las cosas. Y el balance entre el diseño creativo y la funcionalidad crea bellas soluciones que amaras al usarlas"
     },
   "about": {
-    "about_title": "SOBRE MI Y ESTE ESPACIO",
-    "about_description_1": "Me gradue de Ingeniero Electrónico y he estado programando desde los tiempos de BASIC y MS DOS. Después de muchos años de experiencia y tecnologías usadas prefiero usar hoy en día Ruby on Rails y Javascript para el desarrollo web. C # y Unity para Realidad Virtual y Desarrollo de Videojuegos. Aparte de programar me apasiona dibujar y pintar.",
-    "about_description_2": "Papaya Labs es mi espacio de trabajo, usualmente hago freelance solo pero a veces colaboro en este espacio con otros programadores y diseñadores para construir un proyecto. Si quieres saber más sobre mi historia laboral puedes descargar mi CV en español <a href=\"https://papayalabs.github.io/assets/CV-ES.pdf\"> aqui </a> o en ingles <a href=\"https://papayalabs.github.io/assets/CV-EN.pdf\"> aqui </a> o conectar conmigo in Linkedin <a href=\"https://www.linkedin.com/in/papayalabs\">  aqui </a>. También pueden contratarme a través de Upwork <a href=\"https://www.upwork.com/freelancers/~01886fab95c875b01d\">  aqui </a>"
+    "about_title": "SOBRE NOSOTROS",
+    "about_description_1": "Somos una empresa de desarrollo de software enfocada en proyectos humanos. Nuestro enfoque principal está en proyectos relacionados con la ecología y la regeneración de la tierra, el arte y la medicina alternativa. Somos una empresa de la UE con sede en Estonia, pero sin ninguna ubicación física permanente. Nuestro equipo está ubicado en una variedad de lugares en la tierra con diferentes nacionalidades y culturas.",
+    "about_description_2": "Tenemos clientes a los que ayudamos con sus proyectos y también tenemos nuestros propios proyectos y aplicaciones. Los ingredientes básicos que necesita tener todos los proyectos en los que nos involucramos son Humanidad, Creatividad y Simplicidad. Humanidad significa que sirve a la evolución de la humanidad sobre la economía o cualquier sistema de creencia. La creatividad y la simplicidad significan que tratamos de permanecer lo más libres de estructuras posible para centrarnos en la creatividad y permitir que surjan nuevas ideas y soluciones."
   },
   "services": {
     "title": "CLIENTES",
@@ -34,11 +34,11 @@
     "description_3": "En Construccion."
   },
   "divider_1": {
-    "divider_title": "SOLUCIONO PROBLEMAS",
+    "divider_title": "SOLUCIONAMOS PROBLEMAS",
     "divider_description": ""
   },
   "divider_2": {
-    "divider_title": "ME GUSTA CREAR COSAS INTERESANTES",
+    "divider_title": "NOS GUSTA CREAR COSAS GENIALES Y CON ENFOQUE HUMANO",
     "divider_description": ""
   },
   "divider_3": {
@@ -57,8 +57,9 @@
     "description_3": "Homeoagora está diseñado para brindar a los médicos homeópatas y al paciente un espacio para interactuar"  
    },
   "contact": {
-    "address": "Gomez Farias 105, Coyoacan, Mexico",
-    "phone": "+52 (212) 577 6801",
+    "address": "Lõõtsa tn 5-11, 11415, Tallinn, Estonia. Correo: admin@papayalabs.io",
+    "phone": "+34 650 894 481",
+    "register_code": "Código de Registro: 16282532",
     "thanks": "GRACIAS POR VISITARNOS",
     "contact_info": "Informacion de Contacto",
     "title_1": "Periodico",

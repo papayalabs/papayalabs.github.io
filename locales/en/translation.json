@@ -1,13 +1,13 @@
 {
   "app": {
     "name": "papayalabs",
-    "title": "Focus on Simplicity & Creativity",
-    "made_in": "MY PLAYGROUND IS THE WORLD",
-    "created_by": "Created by Papaya Labs - Copyright 2015-2020"
+    "title": "Human Projects for a new world",
+    "made_in": "OUR PLAYGROUND IS THE WORLD",
+    "created_by": "Papayalabs OÜ © All Rights Reserved - Copyright 2021"
   },
   "nav": {
     "home": "Home",
-    "about": "About me",
+    "about": "About us",
     "services": "Clients",
     "porfolio": "Proyects",
     "contact": "Contact",
@@ -15,17 +15,17 @@
 	"english": "English"
   },
   "greywrap": {
-    "title_1": "Latest Technology",
-    "description_1": "I work with the lastest and best technology for the web. I use Ruby on Rails for the Backend, Javascript for the Frontend and C#/Unity for game developement and virtual reality.",
-    "title_2": "Problem Solving",
-    "description_2": "We can't solve problems by using the same kind of thinking we used when we created them. Here is that diferent kind of thinking.",
-    "title_3": "Love for simplicity",
+    "title_1": "Humanity",
+    "description_1": "One basic ingredients that needs to have all the projects that we get involved are that serves to humanity evolution over economy or any believe system survival.",
+    "title_2": "Creativity",
+    "description_2": "We can't solve problems by using the same kind of thinking we used when we created them. Here is that new and different kind of thinking.",
+    "title_3": "Simplicity",
     "description_3": "The beauty is in the balance of things. And in the balance between creative design and functionality create beautiful solutions that you will love to use"
   },
   "about": {
-    "about_title": "ABOUT ME AND THIS SPACE",
-    "about_description_1": "I graduated as an Electrical Engineer and I have been programming since BASIC and MS DOS. After many years of experience and used technologies I prefer to use Ruby on Rails and Javascript for web development. C# and Unity for Virtual Reality and Game Development. Apart from programming I am passionate about drawing and painting.",
-    "about_description_2": "Papaya Labs is my workspace, I usually do freelance alone but sometimes I collaborate in this space with other programmers and designers to build a project. If you want to know more about my work history you can download my CV in spanish <a href=\"https://papayalabs.github.io/assets/CV-ES.pdf\"> here </a> or in english <a href=\"https://papayalabs.github.io/assets/CV-EN.pdf\"> here </a> or connect with me in Linkedin <a href=\"https://www.linkedin.com/in/papayalabs\">  here </a>. Also you can hire me throught Upwork <a href=\"https://www.upwork.com/freelancers/~01886fab95c875b01d\">  here </a>"
+    "about_title": "ABOUT US",
+    "about_description_1": "We are a software development company focused on human projects. Our main focus are in projects related to ecology and earth regeneration, art and alternative medicine. We are an EU company based in Estonia  but without any permanent establishment  physical location. Our team is located in a variety of places on earth with different nationalities and cultures.",
+    "about_description_2": "We have clients that we help with their projects and also we have our own projects and apps. The basic ingredients that needs to have all the projects that we get involved are Humanity , Creative and Simplicity. Humanity means that serves to humanity evolution over economy or any believe system survival. Creativity and simplicity means that we try to remain as free of structures as possible to focus on creativity and allow new ideas and solutions to emerge."
   },
   "services": {
     "title": "CLIENTS",
@@ -34,11 +34,11 @@
     "description_3": "Under Construction."
   },
   "divider_1": {
-    "divider_title": "I SOLVE PROBLEMS",
+    "divider_title": "WE SOLVE PROBLEMS",
     "divider_description": ""
   },
   "divider_2": {
-    "divider_title": "I LIKE TO CREATE COOL STUFF",
+    "divider_title": "WE LIKE TO CREATE GREAT THINGS WITH A HUMAN FOCUS",
     "divider_description": ""
   },
   "divider_3": {
@@ -57,8 +57,9 @@
     "description_3": "Homeoagora is built to give homeopathic doctors and the patient a space to interact"
   },
   "contact": {
-    "address": "Gomez Farias 105, Coyoacan, México",
-    "phone": "+52 (212) 577 6801",
+    "address": "Lõõtsa tn 5-11, 11415, Tallinn, Estonia. Email: admin@papayalabs.io",
+    "phone": "+34 650 894 481",
+    "register_code": "Register Code: 16282532",
     "thanks": "THANKS FOR VISITING US",
     "contact_info": "Contact Information",
     "title_1": "Newsletter",
