@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "papayalabs",
-    "title": "Proyectos Humanos para un nuevo mundo",
+    "title": "Creatividad con Excelencia y Simplicidad",
     "made_in": "NUESTRO PATIO DE JUEGOS ES EL MUNDO",
     "created_by": "Papayalabs OÜ © All Rights Reserved - Copyright 2021"
   },
@@ -15,8 +15,8 @@
 	"english": "Ingles"
   },
   "greywrap": {
-    "title_1": "Humanidad",
-    "description_1": "Un ingrediente básico que necesita tener todos los proyectos en los que nos involucramos es que sirva para la evolución de la humanidad sobre la economía o cualquier sistema de creencia.",
+    "title_1": "Excelencia",
+    "description_1": "La excelencia esta presente desde el momento mismo en que comenzamos con el desarrollo. No creemos que sea factible hacerlo después por lo tanto debemos adelantarnos a las posibles complejidades innecesarias y mantener el código limpio y simple.",
     "title_2": "Creatividad",
     "description_2": "No podemos resolver problemas usando el mismo tipo de pensamiento que usamos cuando los creamos. Aquí está ese nuevo y diferente tipo de pensamiento",
     "title_3": "Simplicidad",
@@ -38,7 +38,7 @@
     "divider_description": ""
   },
   "divider_2": {
-    "divider_title": "NOS GUSTA CREAR COSAS GENIALES Y CON ENFOQUE HUMANO",
+    "divider_title": "NOS GUSTA CREAR COSAS GENIALES Y CON EXCELENCIA",
     "divider_description": ""
   },
   "divider_3": {
