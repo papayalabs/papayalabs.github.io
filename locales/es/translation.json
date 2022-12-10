@@ -24,7 +24,7 @@
     },
   "about": {
     "about_title": "SOBRE NOSOTROS",
-    "about_description_1": "Somos una empresa de desarrollo de software con sede en Estonia, pero sin ninguna ubicación física permanente. ",
+    "about_description_1": "Somos una empresa de desarrollo de software dedicada a brindar soluciones para su negocio. Podemos asumir proyectos completos de principio a fin o simplemente aumentar su equipo existente de trabajo. Tenemos experiencia en la creación de aplicaciones con Ruby/Rails o Python/Django en el backend, React en el frontend. React Native para aplicaciones móviles y C#/Unity para Realidad Virtual, Realidad Aumentada y Videojuegos. ",
     "about_description_2": "Nuestro equipo está ubicado en una variedad de lugares con diferentes nacionalidades y culturas. Tenemos clientes a los que ayudamos con sus proyectos y también tenemos nuestros propios proyectos y aplicaciones."
   },
   "services": {
