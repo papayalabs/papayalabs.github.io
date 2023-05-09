@@ -7,7 +7,7 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About us",
+    "about": "About me",
     "services": "Clients",
     "porfolio": "Proyects",
     "contact": "Contact",
@@ -23,7 +23,7 @@
     "description_3": "The beauty is in the balance of things. And in the balance between creative design and functionality create beautiful solutions that you will love to use"
   },
   "about": {
-    "about_title": "ABOUT US",
+    "about_title": "ABOUT ME",
     "about_description_1": "Hello, my name is Manuel and I graduated as an Electronic Engineer in 2000. I have been programming since the days of BASIC and MS DOS. After many years of experience and currently used technologies I prefer to use Ruby on Rails for web development, Python for data processing and Artificial Intelligence, React Native and Javascript for mobile development and Unity for VR/AR and game development. ",
     "about_description_2": "Papaya Labs is my company and my workspace, I usually freelance alone but sometimes I collaborate in this space with other programmers and designers to build a project. Apart from programming I am passionate about drawing and painting."
   },
@@ -34,15 +34,15 @@
     "description_3": "Under Construction."
   },
   "divider_1": {
-    "divider_title": "WE SOLVE PROBLEMS",
+    "divider_title": "I SOLVE PROBLEMS",
     "divider_description": ""
   },
   "divider_2": {
-    "divider_title": "WE LIKE TO CREATE GREAT THINGS WITH EXCELLENCE",
+    "divider_title": "I LIKE TO CREATE GREAT THINGS WITH EXCELLENCE",
     "divider_description": ""
   },
   "divider_3": {
-    "divider_title": "WE CREATE COOL STUFF",
+    "divider_title": "I CREATE COOL STUFF",
     "divider_description": ""
   },
   "portfolio": {

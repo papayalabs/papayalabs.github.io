@@ -2,12 +2,12 @@
   "app": {
     "name": "papayalabs",
     "title": "Creatividad con Excelencia y Simplicidad",
-    "made_in": "NUESTRO PATIO DE JUEGOS ES EL MUNDO",
+    "made_in": "MI PATIO DE JUEGOS ES EL MUNDO",
     "created_by": "Papayalabs OÜ © All Rights Reserved - Copyright 2021"
   },
   "nav": {
     "home": "Inicio",
-    "about": "Sobre nosotros",
+    "about": "Sobre mi",
     "services": "Clientes",
     "porfolio": "Proyectos",
     "contact": "Contacto",
@@ -23,7 +23,7 @@
     "description_3": "La belleza esta en el balance de las cosas. Y el balance entre el diseño creativo y la funcionalidad crea bellas soluciones que amaras al usarlas"
     },
   "about": {
-    "about_title": "SOBRE NOSOTROS",
+    "about_title": "SOBRE ME",
     "about_description_1": "Hola, mi nombre es Manuel y me gradué de Ingeniero Electrónico por el 2000. He estado programando desde los tiempos de BASIC y MS DOS. Después de muchos años de experiencia y tecnologías usadas actualmente prefiero usar Ruby on Rails para desarrollo web, Python para el procesamiento de datos e Inteligencia Artificial, React Native y Javascript para el desarrollo móvil y Unity para la VR/AR y el desarrollo de videojuegos. ",
     "about_description_2": "Papaya Labs es mi compañía y  mi espacio de trabajo, usualmente hago freelance solo pero a veces colaboro en este espacio con otros programadores y diseñadores para construir un proyecto.  Aparte de programar me apasiona dibujar y pintar."
   },
@@ -34,11 +34,11 @@
     "description_3": "En Construccion."
   },
   "divider_1": {
-    "divider_title": "SOLUCIONAMOS PROBLEMAS",
+    "divider_title": "SOLUCIONO PROBLEMAS",
     "divider_description": ""
   },
   "divider_2": {
-    "divider_title": "NOS GUSTA CREAR COSAS GENIALES CON EXCELENCIA",
+    "divider_title": "ME GUSTA CREAR COSAS GENIALES CON EXCELENCIA",
     "divider_description": ""
   },
   "divider_3": {
