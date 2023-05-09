@@ -24,8 +24,8 @@
   },
   "about": {
     "about_title": "ABOUT US",
-    "about_description_1": "We are a software development company dedicated to providing solutions for your business. We can take on full projects from start to finish or simply augment your existing team. We have experience building applications with Ruby/Rails or Python/Django in the backend, React on the frontend. React Native for mobile applications and C#/Unity for Virtual Reality, Augmented Reality and Video games. ",
-    "about_description_2": "Our team is located in a variety of places with different nationalities and cultures. We have clients that we help with their projects and also we have our own projects and apps."
+    "about_description_1": "Hello, my name is Manuel and I graduated as an Electronic Engineer in 2000. I have been programming since the days of BASIC and MS DOS. After many years of experience and currently used technologies I prefer to use Ruby on Rails for web development, Python for data processing and Artificial Intelligence, React Native and Javascript for mobile development and Unity for VR/AR and game development. ",
+    "about_description_2": "Papaya Labs is my company and my workspace, I usually freelance alone but sometimes I collaborate in this space with other programmers and designers to build a project. Apart from programming I am passionate about drawing and painting."
   },
   "services": {
     "title": "CLIENTS",
