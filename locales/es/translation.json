@@ -24,7 +24,7 @@
     },
   "about": {
     "about_title": "SOBRE MI",
-    "about_description_1": "Hola, mi nombre es Manuel y me gradué de Ingeniero Electrónico por el 2000. He estado programando desde los tiempos de BASIC y MS DOS. Después de muchos años de experiencia y tecnologías usadas actualmente prefiero usar Ruby on Rails para desarrollo web, Python para el procesamiento de datos e Inteligencia Artificial, React Native y Javascript para el desarrollo móvil y Unity para la VR/AR y el desarrollo de videojuegos. ",
+    "about_description_1": "Hola, mi nombre es Manuel y me gradué de Ingeniero Electrónico por el 2000. He estado programando desde los tiempos de BASIC y MS DOS. Después de muchos años de experiencia y tecnologías usadas actualmente prefiero usar Ruby on Rails con Hotwire para desarrollo web, Python para el procesamiento de datos e Inteligencia Artificial  y Unity para la VR/AR y el desarrollo de videojuegos. ",
     "about_description_2": "Papaya Labs es mi compañía y  mi espacio de trabajo, usualmente hago freelance solo pero a veces colaboro en este espacio con otros programadores y diseñadores para construir un proyecto.  Aparte de programar me apasiona dibujar y pintar."
   },
   "services": {
