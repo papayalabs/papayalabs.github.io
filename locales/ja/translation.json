@@ -1,0 +1,80 @@
+{
+  "app": {
+    "name": "papayalabs",
+    "title": "優秀さとシンプルさを追求した創造性",
+    "made_in": "私の遊び場は世界です",
+    "created_by": "Papayalabs OÜ © 全著作権所有 - 著作権 2021"
+  },
+  "nav": {
+    "home": "ホーム",
+    "about": "私について",
+    "services": "クライアント",
+    "porfolio": "プロジェクト",
+    "contact": "連絡先",
+    "spanish": "スペイン語",
+    "english": "英語",
+    "japanese": "日本語"
+  },
+  "greywrap": {
+    "title_1": "優秀さ",
+    "description_1": "優秀さは、開発を開始する瞬間から存在します。後から実現するのは現実的でないと考えているので、可能な不必要な複雑さを予測し、コードをシンプルで清潔に保つ必要があります。",
+    "title_2": "創造性",
+    "description_2": "問題を解決するには、私たちがそれを作り出したときに使ったのと同じ考え方を使うことはできません。ここに新しくて異なる考え方があります。",
+    "title_3": "シンプルさ",
+    "description_3": "美しさは物事のバランスにあります。創造的なデザインと機能性のバランスによって、美しいソリューションを生み出し、使うことを愛するでしょう。"
+  },
+  "about": {
+    "about_title": "私について",
+    "about_description_1": "こんにちは、私の名前はマヌエルです。2000年に電子エンジニアとして卒業しました。BASICとMS DOSの時代からプログラムをしています。豊富な経験と最新技術に基づき、ウェブ開発にはRuby on RailsとHotwireを、データ処理と人工知能にはPythonを、VR/ARやゲーム開発にはUnityを使うことを好みます。",
+    "about_description_2": "Papaya Labsは私の会社であり、ワークスペースです。普段は一人でフリーランスとして活動していますが、時にはこのスペースで他のプログラマーやデザイナーと協力してプロジェクトを構築することもあります。プログラミング以外では、絵を描くことや絵画に情熱を持っています。"
+  },
+  "services": {
+    "title": "クライアント",
+    "description_1": "Ruby on Rails、ウェブ開発、保守と技術サポート",
+    "review_1": "「マヌエルは非常に有能なウェブマスターおよびウェブサイト開発者であり、非常に応答が速く迅速です。彼との提携にとても満足しています。」",
+    "author_1": "トーマス・タンバーグ - World Wide Art Promotion, Inc 創設者兼ディレクター",
+    "description_2": "Ruby on Rails と Zammad、Python と Django、ウェブ開発、保守と技術サポート",
+    "review_2": "「マヌエルとの仕事は素晴らしい体験でした。彼はとても親切で信頼できました！彼といつでも再度仕事をしたいです。」",
+    "author_2": "ドリス・フレーナー - エタニティの管理委員のメンバー",
+    "description_3": "Ruby、AI、PostgresSQL、保守と技術サポート",
+    "review_3": "「マヌエルは学習が速く、私たちが契約した仕事のための素晴らしいチームメイトでした。将来のニーズのために彼を強く推薦します！」",
+    "author_3": "ディアナ・グレモア - RealCountの創設者兼CEO",
+    "description_4": "Ruby on Rails、Hotwire、AI、PostgresSQL、保守と技術サポート",
+    "review_4": "「マヌエルは優秀なプロフェッショナルです！さらに - AIアプリを非常に速くかつプロフェッショナルに作成しました - 強くお勧めします！」",
+    "author_4": "ダニエル・バーンズ - Boulder SEO Marketing COO / デジタル戦略担当"
+  },
+  "divider_1": {
+    "divider_title": "私は問題を解決します",
+    "divider_description": ""
+  },
+  "divider_2": {
+    "divider_title": "私は卓越性をもって素晴らしいものを作るのが好きです",
+    "divider_description": ""
+  },
+  "divider_3": {
+    "divider_title": "私はクールなものを作ります",
+    "divider_description": ""
+  },
+  "portfolio": {
+    "title": "プロジェクト",
+    "take_a_look": "見てみる",
+    "visite_site": "サイトを訪問",
+    "name_1": "ARTSITE",
+    "description_1": "Artsite.io（現在はArtavita.site）はアーティストがエレガントでミニマリストなデザインで自身のウェブサイトを作成し、自己プロモーションのためのツールを提供するサービスとしてのソフトウェア（SaaS）です。",
+    "name_2": "PYMENTA",
+    "description_2": "Pymentaは、クラウドで稼働し、小規模な企業が文書（請求書、メモ、見積、クレジットなど）を作成、管理、印刷できるように設計された非常にシンプルなクラウドERPシステムです。倉庫、プロバイダー、クライアント、製品、在庫を管理できます。",
+    "name_3": "HOMEOAGORA",
+    "description_3": "Homeoagoraは、ホメオパシー医師と患者が交流するためのスペースを提供します"
+  },
+  "contact": {
+    "address": "Lõõtsa tn 5-11, 11415, タリン, エストニア. メール: admin@papayalabs.io",
+    "phone": "+34 650 894 481",
+    "register_code": "登録コード: 16282532",
+    "thanks": "ご訪問ありがとうございます",
+    "contact_info": "連絡先情報",
+    "title_1": "ニュースレター",
+    "description_1": "工事中。",
+    "title_2": "私たちをサポート",
+    "description_2": "工事中。"
+  }
+}

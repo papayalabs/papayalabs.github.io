@@ -11,8 +11,9 @@
     "services": "Clients",
     "porfolio": "Proyects",
     "contact": "Contact",
-	"spanish": "Spanish",
-	"english": "English"
+    "spanish": "Spanish",
+    "english": "English",
+    "japanese": "Japanese"
   },
   "greywrap": {
     "title_1": "Excellence",

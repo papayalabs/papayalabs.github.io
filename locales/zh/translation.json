@@ -1,0 +1,79 @@
+{
+  "app": {
+    "name": "papayalabs",
+    "title": "卓越与简约的创造力",
+    "made_in": "我的游乐场是世界",
+    "created_by": "Papayalabs OÜ © 版权所有 - 版权 2021"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我",
+    "services": "客户",
+    "porfolio": "项目",
+    "contact": "联系",
+    "spanish": "西班牙语",
+    "english": "英语"
+  },
+  "greywrap": {
+    "title_1": "卓越",
+    "description_1": "卓越从我们开始开发的那一刻起就已经存在。我们认为事后实现它是不切实际的，所以我们必须预见可能的不必要的复杂性，并保持代码的简洁。",
+    "title_2": "创造力",
+    "description_2": "我们不能用创造问题时所用的同样思维去解决问题。这就是一种新的不同的思维方式。",
+    "title_3": "简约",
+    "description_3": "美在于事物的平衡。在创意设计与功能之间的平衡创造出您会喜欢使用的美丽解决方案。"
+  },
+  "about": {
+    "about_title": "关于我",
+    "about_description_1": "你好，我叫Manuel，2000年毕业于电子工程。我从BASIC和MS DOS时代就开始编程。经过多年经验积累和当前所用技术，我倾向于使用Ruby on Rails搭配Hotwire进行网络开发，用Python进行数据处理和人工智能，以及用Unity进行VR/AR和游戏开发。",
+    "about_description_2": "Papaya Labs是我的公司和工作空间，我通常单独从事自由职业，但有时会在这个空间与其他程序员和设计师合作完成项目。除了编程，我对绘画和油画充满热情。"
+  },
+  "services": {
+    "title": "客户",
+    "description_1": "Ruby on Rails，网站开发，维护和技术支持",
+    "review_1": "“Manuel是一位非常有能力的网站管理员和网站开发人员，非常响应快速。我们对与他的合作感到非常满意。”",
+    "author_1": "Thomas Tunberg - World Wide Art Promotion, Inc 创办人兼总监",
+    "description_2": "Ruby on Rails 和Zammad，Python和Django，网站开发，维护和技术支持",
+    "review_2": "“与Manuel的合作是一段很棒的经历。他非常乐于助人且可靠！随时愿意再次与他合作。”",
+    "author_2": "Doris Frehner - Eturnity管理委员会成员",
+    "description_3": "Ruby，人工智能，PostgresSQL，维护和技术支持",
+    "review_3": "“Manuel学习能力很强，是我们合同工作中的一位出色合作伙伴。我们强烈推荐他以满足未来的需求！”",
+    "author_3": "Diana Gremore - RealCount 创办人&CEO",
+    "description_4": "Ruby on Rails，Hotwire，AI，PostgresSQL，维护和技术支持",
+    "review_4": "“Manuel是一位优秀的专业人士！最棒的是 - 我们非常迅速和专业地打造了我们的AI应用程序 - 强烈推荐！”",
+    "author_4": "Daniel Burns - Boulder SEO Marketing首席运营官/数字策略师"
+  },
+  "divider_1": {
+    "divider_title": "我解决问题",
+    "divider_description": ""
+  },
+  "divider_2": {
+    "divider_title": "我喜欢用卓越创造伟大的事物",
+    "divider_description": ""
+  },
+  "divider_3": {
+    "divider_title": "我创造酷炫的东西",
+    "divider_description": ""
+  },
+  "portfolio": {
+    "title": "项目",
+    "take_a_look": "看一下",
+    "visite_site": "访问网站",
+    "name_1": "ARTSITE",
+    "description_1": "Artsite.io（现为Artavita.site）是一种提供服务的软件（SaaS），使艺术家能够以优雅和极简设计创建他们的网站，并为他们提供自我推广的工具。",
+    "name_2": "PYMENTA",
+    "description_2": "Pymenta是一个非常简单的云ERP系统，旨在在云中运行，并允许小型公司创建、管理和打印文档（发票、票据、报价、信用等）。您可以管理仓库、供应商、客户、产品和库存。",
+    "name_3": "HOMEOAGORA",
+    "description_3": "Homeoagora旨在为顺势疗法医生和病患提供互动空间"
+  },
+  "contact": {
+    "address": "Lõõtsa tn 5-11, 11415, 塔林, 爱沙尼亚. 邮件: admin@papayalabs.io",
+    "phone": "+34 650 894 481",
+    "register_code": "注册代码: 16282532",
+    "thanks": "感谢访问我们",
+    "contact_info": "联系信息",
+    "title_1": "通讯",
+    "description_1": "正在建设中。",
+    "title_2": "支持我们",
+    "description_2": "正在建设中。"
+  }
+}
