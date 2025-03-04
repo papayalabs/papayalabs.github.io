@@ -61,6 +61,15 @@ if (location.search) {
      $('#services_description_1').text($.t('services.description_1'));
      $('#services_description_2').text($.t('services.description_2'));
      $('#services_description_3').text($.t('services.description_3'));
+     $('#services_description_4').text($.t('services.description_4'));
+     $('#services_review_1').text($.t('services.review_1'));
+     $('#services_review_2').text($.t('services.review_2'));
+     $('#services_review_3').text($.t('services.review_3'));
+     $('#services_review_4').text($.t('services.review_4'));
+     $('#services_author_1').text($.t('services.author_1'));
+     $('#services_author_2').text($.t('services.author_2'));
+     $('#services_author_3').text($.t('services.author_3'));
+     $('#services_author_4').text($.t('services.author_4'));
      $('#address').text($.t('contact.address'));
      $('#register_code').text($.t('contact.register_code'));
      $('#phone').text($.t('contact.phone'));

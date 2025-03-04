@@ -29,9 +29,18 @@
   },
   "services": {
     "title": "CLIENTS",
-    "description_1": "Under Construction.",
-    "description_2": "Under Construction.",
-    "description_3": "Under Construction."
+    "description_1": "Ruby on Rails, Web Development, Maintenance and Technical Support",
+    "review_1": "\"Manuel is a very capable webmaster and website developer, very responsive and fast. We are very happy with our association with him.\"",
+    "author_1": "Thomas Tunberg - Founder and Director of World Wide Art Promotion, Inc",
+    "description_2": "Ruby on Rails and Zammad, Python and Django, Web Development, Maintenance and Technical Support\"",
+    "review_2": "\"Working with Manuel was a great experience. He was very helpful and reliable! I would work with him again any time.",
+    "author_2": "Doris Frehner - Member of the Management Board of Eturnity",
+    "description_3": "Ruby, AI, PostgresSQL, Maintenance and Technical Support",
+    "review_3": "\"Manuel was a quick learner, and a great teammate for our contracted work. We highly recommend him for any future needs!\"",
+    "author_3": "Diana Gremore -  Founder & CEO at RealCount",
+    "description_4": "Ruby on Rails, Hotwire, AI, PostgresSQL, Maintenance and Technical Support",
+    "review_4": "\"Manuel is an excellent professional!  On top of it - we created our AI app very fast and professionally - highly recommended!\"",
+    "author_4": "Daniel Burns -  Chief Operating Officer / Digital Strategist at Boulder SEO Marketing"
   },
   "divider_1": {
     "divider_title": "I SOLVE PROBLEMS",
