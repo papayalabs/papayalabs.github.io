@@ -8,449 +8,804 @@
     <link rel='shortcut icon' type='image/vnd.microsoft.icon' href='assets/img/Papaya-logo.ico'>
     <title>Papaya Labs</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Modern CSS framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link href="assets/css/animate-custom.css" rel="stylesheet">
+    
+    <!-- Modern icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Modern animation library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-	
-
+    <!-- App icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/ios/AppIcon.appiconset/Icon-App-57x57@1x.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/img/ios/AppIcon.appiconset/Icon-App-72x72@1x.png">
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/ios/AppIcon.appiconset/Icon-App-76x76@1x.png">
     <link rel="apple-touch-icon" sizes="114x114" href="assets/img/ios/AppIcon.appiconset/Icon-App-57x570@2x.png">
     <link rel="apple-touch-icon" sizes="144x144" href="assets/img/ios/AppIcon.appiconset/Icon-App-72x72@2x.png">
 
+    <!-- Modern Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Required JavaScript libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     
-    <script src="assets/js/jquery.min.js"></script>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-5HRS8JN7ZZ"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5HRS8JN7ZZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5HRS8JN7ZZ');
+    </script>
 
-			gtag('config', 'G-5HRS8JN7ZZ');
-		</script>
+    <!-- Intersection Observer for scroll animations -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const observerOptions = {
+          root: null,
+          rootMargin: '0px',
+          threshold: 0.1
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate__animated', entry.target.dataset.animation);
+              observer.unobserve(entry.target);
+            }
+          });
+        }, observerOptions);
+        
+        document.querySelectorAll('[data-animation]').forEach(element => {
+          observer.observe(element);
+        });
+      });
+    </script>
 
-	    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	    <!--[if lt IE 9]>
-	      <script src="assets/js/html5shiv.js"></script>
-	      <script src="assets/js/respond.min.js"></script>
-	    <![endif]-->
+    <!-- Custom styles for modern design -->
+    <style>
+      :root {
+        --primary-color: #3498db;
+        --primary-dark: #2980b9;
+        --secondary-color: #2c3e50;
+        --light-color: #ecf0f1;
+        --dark-color: #34495e;
+        --text-color: #333;
+        --text-light: #777;
+        --font-primary: 'Poppins', sans-serif;
+        --font-secondary: 'Montserrat', sans-serif;
+      }
+      
+      body {
+        font-family: var(--font-primary);
+        color: var(--text-color);
+        overflow-x: hidden;
+        background-color: #fff;
+        scroll-behavior: smooth;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-secondary);
+        font-weight: 600;
+      }
+      
+      /* Modern navbar */
+      .navbar {
+        background-color: rgba(255, 255, 255, 0.98);
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        padding: 1rem 0;
+      }
+      
+      .navbar.scrolled {
+        padding: 0.5rem 0;
+      }
+      
+      .navbar-brand img {
+        height: 40px;
+        transition: all 0.3s ease;
+      }
+      
+      .nav-link {
+        color: var(--dark-color);
+        font-weight: 500;
+        margin: 0 0.5rem;
+        position: relative;
+        transition: all 0.3s ease;
+      }
+      
+      .nav-link:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -3px;
+        left: 0;
+        background-color: var(--primary-color);
+        transition: all 0.3s ease;
+      }
+      
+      .nav-link:hover {
+        color: var(--primary-color);
+      }
+      
+      .nav-link:hover:after {
+        width: 100%;
+      }
+      
+      /* Hero section */
+      #hero {
+        background: url('assets/img/header_bg.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+      
+      .hero-content {
+        text-align: center;
+        color: #2c3e50;
+        z-index: 1;
+      }
+      
+      .hero-title {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      
+      .hero-subtitle {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        font-weight: 300;
+      }
+      
+      /* Features section */
+      #features {
+        padding: 5rem 0;
+        background-color: #f8f9fa;
+      }
+      
+      .feature-card {
+        background: white;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        height: 100%;
+        transition: all 0.3s ease;
+      }
+      
+      .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+      }
+      
+      .feature-icon {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+      }
+      
+      /* About section */
+      #about {
+        padding: 5rem 0;
+      }
+      
+      .profile-img {
+        border-radius: 50%;
+        max-width: 200px;
+        margin: 0 auto 2rem;
+        border: 5px solid var(--primary-color);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+      }
+      
+      .profile-img:hover {
+        transform: scale(1.05);
+      }
+      
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+      
+      .social-links a {
+        transition: all 0.3s ease;
+      }
+      
+      .social-links a:hover {
+        transform: translateY(-5px);
+      }
+      
+      /* Section divider */
+      .section-divider {
+        padding: 5rem 0;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #2c3e50;
+        text-align: center;
+      }
+      
+      .divider1 {
+        background: url('assets/img/bg/divider1.jpg');
+        background-size: cover;
+      }
+      
+      .divider2 {
+        background: url('assets/img/bg/divider2.jpg');
+        background-size: cover;
+      }
+      
+      .divider6 {
+        background: url('assets/img/bg/divider6.jpg');
+        background-size: cover;
+      }
+      
+      /* Services/Clients section */
+      #services {
+        padding: 5rem 0;
+        background-color: #f8f9fa;
+      }
+      
+      .client-card {
+        background: white;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        margin-bottom: 3rem;
+        transition: all 0.3s ease;
+      }
+      
+      .client-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+      }
+      
+      .client-logo {
+        max-height: 60px;
+        margin-bottom: 1.5rem;
+      }
+      
+      .client-review {
+        font-style: italic;
+        color: var(--text-light);
+        position: relative;
+        padding: 0 1.5rem;
+      }
+      
+      .client-review:before, .client-review:after {
+        content: '"';
+        font-size: 2rem;
+        color: var(--primary-color);
+        position: absolute;
+      }
+      
+      .client-review:before {
+        left: 0;
+        top: -0.5rem;
+      }
+      
+      .client-review:after {
+        right: 0;
+        bottom: -1.5rem;
+      }
+      
+      /* Portfolio section */
+      #portfolio {
+        padding: 5rem 0;
+      }
+      
+      .portfolio-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      
+      .portfolio-img {
+        transition: all 0.5s ease;
+        width: 100%;
+      }
+      
+      .portfolio-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: all 0.5s ease;
+      }
+      
+      .portfolio-item:hover .portfolio-overlay {
+        opacity: 1;
+      }
+      
+      .portfolio-item:hover .portfolio-img {
+        transform: scale(1.1);
+      }
+      
+      .portfolio-title {
+        color: white;
+        margin-bottom: 1rem;
+        transform: translateY(20px);
+        transition: all 0.5s ease;
+      }
+      
+      .portfolio-btn {
+        transform: translateY(20px);
+        transition: all 0.5s ease;
+        opacity: 0;
+      }
+      
+      .portfolio-item:hover .portfolio-title,
+      .portfolio-item:hover .portfolio-btn {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      
+      /* Contact section */
+      #contact {
+        padding: 5rem 0;
+        text-align: center;
+      }
+      
+      .contact-icon {
+        font-size: 2rem;
+        margin: 0 0.5rem;
+        color: var(--dark-color);
+        transition: all 0.3s ease;
+      }
+      
+      .contact-icon:hover {
+        color: var(--primary-color);
+        transform: scale(1.2);
+      }
+      
+      /* Footer */
+      #footerwrap {
+        padding: 3rem 0;
+        background-color: var(--secondary-color);
+        color: white;
+        text-align: center;
+      }
+      
+      /* Modal styling */
+      .modal-content {
+        border-radius: 10px;
+        overflow: hidden;
+        border: none;
+      }
+      
+      .modal-header {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+      }
+      
+      .modal-body {
+        padding: 2rem;
+      }
+      
+      .btn-primary {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        padding: 0.5rem 1.5rem;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+      }
+      
+      .btn-primary:hover {
+        background-color: var(--primary-dark);
+        border-color: var(--primary-dark);
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+      }
+      
+      /* Animations */
+      .animate-on-scroll {
+        opacity: 0;
+      }
+      
+      /* Responsive */
+      @media (max-width: 768px) {
+        .hero-title {
+          font-size: 2.5rem;
+        }
+        
+        .hero-subtitle {
+          font-size: 1.2rem;
+        }
+        
+        .feature-card, .client-card {
+          margin-bottom: 2rem;
+        }
+      }
+    </style>
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-  	<div id="navbar-main">
-      <!-- Fixed navbar -->
-			<div class="navbar navbar-inverse navbar-fixed-top">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<img class="img-color img-responsive" src="assets/img/papayalabs.png" alt="">
-						</button>
-						<a class="navbar-brand hidden-xs hidden-sm" href="#home"><img class="img-color  img-responsive" src="assets/img/papayalabs.png" alt=""></a>
-					</div>
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li><a href="#home" class="smoothScroll" data-i18n="nav.home"></a></li>
-							<li><a href="#about" class="smoothScroll" data-i18n="nav.about"></a></li>
-							<li><a href="#services" class="smoothScroll" data-i18n="nav.services"></a></li>
-							<li><a href="#portfolio" class="smoothScroll" data-i18n="nav.porfolio"></a></li>
-							<li><a href="#contact" class="smoothScroll" data-i18n="nav.contact"></a></li>
-							<a href="?lang=es" data-i18n="nav.spanish"></a> / <a href="?lang=en" data-i18n="nav.english"></a> / <a href="?lang=ja" data-i18n="nav.japanese"></a>
-						</ul>
-					</div><!--/.nav-collapse -->
-				</div>
-			</div>
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar-main">
+      <div class="container">
+        <a class="navbar-brand" href="#hero">
+          <img src="assets/img/papayalabs.png" alt="Papaya Labs" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero" data-i18n="nav.home"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" data-i18n="nav.about"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services" data-i18n="nav.services"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio" data-i18n="nav.porfolio"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" data-i18n="nav.contact"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                <li><a class="dropdown-item" href="?lang=en" data-i18n="nav.english"></a></li>
+                <li><a class="dropdown-item" href="?lang=es" data-i18n="nav.spanish"></a></li>
+                <li><a class="dropdown-item" href="?lang=ja" data-i18n="nav.japanese"></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  
-  
-		<!-- ==== HEADERWRAP ==== -->
-		<div id="headerwrap" id="home" name="home">
-			<header class="clearfix">
-					<h1><img class="img-color img-responsive" src="assets/img/codeicon.png" alt="" height="60" width="60" style="display: block;margin-left: auto;margin-right: auto;"></h1>
-					<p id="apptitle"></p>
-			</header>	    
-		</div><!-- /headerwrap -->
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <img src="assets/img/codeicon.png" alt="" height="80" width="80" class="mb-4 animate__animated animate__fadeIn">
+            <h1 class="hero-title animate__animated animate__fadeInUp">Papaya Labs</h1>
+            <p class="hero-subtitle animate__animated animate__fadeInUp animate__delay-1s" id="apptitle"></p>
+            <div class="mt-5 animate__animated animate__fadeInUp animate__delay-2s">
+              <a href="#about" class="btn btn-primary btn-lg px-4 me-2">Learn More</a>
+              <a href="#contact" class="btn btn-outline-dark btn-lg px-4">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<!-- ==== GREYWRAP ==== -->
-		<div id="greywrap">
-			<div class="row">
-				<div class="col-lg-4 callout">
-					<h1><span class="fa fa-universal-access"></span></h1>
-					<h2 id="greywrap_litle_1"></h2>
-					<p id="greywrap_description_1"></p>
-				</div><!-- col-lg-4 -->
-					
-				<div class="col-lg-4 callout">
-					<h1><span class="fa fa-paint-brush"></span></h1>
-					<h2 id="greywrap_litle_2"></h2>
-					<p id="greywrap_description_2"></p>
-				</div><!-- col-lg-4 -->	
-				
-				<div class="col-lg-4 callout">
-					<h1><span class="fa fa-heart"></span></h1>
-					<h2 id="greywrap_litle_3"></h2>
-					<p id="greywrap_description_3"></p>
-				</div><!-- col-lg-4 -->	
-			</div><!-- row -->
-		</div><!-- greywrap -->
-		
-		<!-- ==== ABOUT ==== -->
+    <!-- Features Section -->
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4" data-animation="animate__fadeInUp">
+            <div class="feature-card text-center">
+              <i class="fa-solid fa-universal-access feature-icon"></i>
+              <h3 id="greywrap_litle_1" class="mb-3"></h3>
+              <p id="greywrap_description_1" class="mb-0"></p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4" data-animation="animate__fadeInUp" style="animation-delay: 0.2s">
+            <div class="feature-card text-center">
+              <i class="fa-solid fa-paint-brush feature-icon"></i>
+              <h3 id="greywrap_litle_2" class="mb-3"></h3>
+              <p id="greywrap_description_2" class="mb-0"></p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4" data-animation="animate__fadeInUp" style="animation-delay: 0.4s">
+            <div class="feature-card text-center">
+              <i class="fa-solid fa-heart feature-icon"></i>
+              <h3 id="greywrap_litle_3" class="mb-3"></h3>
+              <p id="greywrap_description_3" class="mb-0"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<div class="container" id="about" name="about">
-			<div class="row white">
-				<br>
-				<h1 class="centered" id="about_title"></h1>
-				<hr>
-				<h1 class="centered">
-				  <img class="img-circle" src="assets/img/papayalabs-icon.png" width="150" height="150" "></a>
-		    </h1>
-				<div class="col-lg-6">
-					<p id="about_description_1"></p>
-				</div>
-				
-				<div class="col-lg-6">
-					<p id="about_description_2"></p>												
-				</div>
-			</div>
-			<p class="centered">
-				<a href="https://www.linkedin.com/in/papayalabs" target="_blank">
-					<img src="assets/img/linkedIn-logo.png" alt="LinkedIn Profile" width="250" height="150">
-				</a>
-				<a href="https://www.upwork.com/o/profiles/users/_~01886fab95c875b01d" target="_blank">
-					<img src="assets/img/upwork-logo.png" alt="Upwork Profile" width="250" height="125">
-				</a>
-			</p>
-		</div><!-- container -->
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8">
+            <h2 class="fw-bold mb-4" id="about_title" data-animation="animate__fadeInUp"></h2>
+            <hr class="divider">
+          </div>
+        </div>
+        
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-5 mb-lg-0 text-center" data-animation="animate__fadeInLeft">
+            <img class="profile-img img-fluid" src="assets/img/papayalabs-icon.png" width="200" height="200">
+          </div>
+          
+          <div class="col-lg-8" data-animation="animate__fadeInRight">
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <p id="about_description_1"></p>
+              </div>
+              <div class="col-md-6 mb-4">
+                <p id="about_description_2"></p>
+              </div>
+            </div>
+            
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/papayalabs" target="_blank" class="social-icon">
+                <img src="assets/img/linkedIn-logo.png" alt="LinkedIn Profile" width="120">
+              </a>
+              <a href="https://www.upwork.com/o/profiles/users/_~01886fab95c875b01d" target="_blank" class="social-icon">
+                <img src="assets/img/upwork-logo.png" alt="Upwork Profile" width="120">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Divider 1 -->
+    <section class="section-divider divider1">
+      <div class="container" data-animation="animate__fadeIn">
+        <h1 id="divider_title_1" class="fw-bold mb-4"></h1>
+        <hr class="divider-light">
+        <p id="divider_description_1" class="lead"></p>
+      </div>
+    </section>
 
-		<!-- ==== SECTION DIVIDER1 -->
-		
-		<section class="section-divider textdivider divider1">
-			<div class="container">
-				<h1 id="divider_title_1"></h1>
-				<hr>
-				<p id="divider_description_1"></p>
-			</div>
-		</section><!-- section -->
-		
-		
-		<!-- ==== SERVICES ==== -->
-		<div class="container" id="services" name="services">
-			<br>
-			<br>
-			<div class="row">
-				<h2 class="centered" id="services_title"></h2>
-				<hr>
-				<br>
-				<div class="col-lg-offset-2 col-lg-8">
-				</div><!-- col-lg -->
-			</div><!-- row -->
-<!--			
-		<h1 class="centered"><a href="http://stackoverflow.com/users/4663917/papayalabs">
-		<img src="http://stackoverflow.com/users/flair/4663917.png" width="208" height="58" alt="profile for papayalabs at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for papayalabs at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-		</a></h1>
-		
-		<h1 class="centered"><object width="300" height="360"><param name="movie" value="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=7032530&catId=&defaultTab=0&rid=4C298"></param><param name="allowFullScreen" value="false"></param><param name="allowscriptaccess" value="always"></param><embed src="https://images.elance.com/media/flash/widget/profile/profile-widget-300.swf?userId=7032530&catId=&defaultTab=0&rid=4C298" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="360"></embed></object></h1>
+    <!-- Services/Clients Section -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="fw-bold mb-4" id="services_title" data-animation="animate__fadeInUp"></h2>
+            <hr class="divider">
+          </div>
+        </div>
+        
+        <div class="row">
+          <!-- Client 1 -->
+          <div class="col-lg-6 mb-4" data-animation="animate__fadeInUp">
+            <div class="client-card text-center">
+              <a href="https://www.artavita.com" target="_blank">
+                <img class="client-logo img-fluid mx-auto" src="assets/img/artavita.png" alt="Artavita">
+              </a>
+              <h5 class="mt-4" id="services_description_1"></h5>
+              <p class="client-review my-4" id="services_review_1"></p>
+              <p class="fw-bold" id="services_author_1"></p>
+            </div>
+          </div>
+          
+          <!-- Client 2 -->
+          <div class="col-lg-6 mb-4" data-animation="animate__fadeInUp" style="animation-delay: 0.2s">
+            <div class="client-card text-center">
+              <a href="https://www.eturnity.com" target="_blank">
+                <img class="client-logo img-fluid mx-auto" src="assets/img/eturnity.png" alt="Eturnity">
+              </a>
+              <h5 class="mt-4" id="services_description_2"></h5>
+              <p class="client-review my-4" id="services_review_2"></p>
+              <p class="fw-bold" id="services_author_2"></p>
+            </div>
+          </div>
+          
+          <!-- Client 3 -->
+          <div class="col-lg-6 mb-4" data-animation="animate__fadeInUp">
+            <div class="client-card text-center">
+              <a href="https://realcount.pro" target="_blank">
+                <img class="client-logo img-fluid mx-auto" src="assets/img/realcount.png" alt="RealCount Pro">
+              </a>
+              <h5 class="mt-4" id="services_description_3"></h5>
+              <p class="client-review my-4" id="services_review_3"></p>
+              <p class="fw-bold" id="services_author_3"></p>
+            </div>
+          </div>
+          
+          <!-- Client 4 -->
+          <div class="col-lg-6 mb-4" data-animation="animate__fadeInUp" style="animation-delay: 0.2s">
+            <div class="client-card text-center">
+              <a href="https://boulderseomarketing.com/" target="_blank">
+                <img class="client-logo img-fluid mx-auto" src="assets/img/bsm-logo.png" alt="Boulder SEO Marketing">
+              </a>
+              <a href="https://brain.bsmcopilot.ai/login" target="_blank">
+                <img class="client-logo img-fluid mx-auto mt-3" src="assets/img/bsmcopilot.png" alt="BSM Copilot AI">
+              </a>
+              <h5 class="mt-4" id="services_description_4"></h5>
+              <p class="client-review my-4" id="services_review_4"></p>
+              <p class="fw-bold" id="services_author_4"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<h1 class="centered"><a href="http://www.upwork.com/o/profiles/users/_~01886fab95c875b01d">
-		<img src="assets/img/upwork.png" width="450" height="250" alt="Profile for papayalabs at Upwork" title="Profile for Upwork">
-		</a></h1>
--->		
-	    <div>
-				<div class="row">
-					<div class="col-lg-2"></div>
-			
-					<div class="col-lg-8">
-							<h1 class="centered">
-								<a href="https://www.artavita.com">
-							    <img class="img" src="assets/img/artavita.png" alt="Artavita" title="Artavita"></img>
-							  </a>
-							</h1>
-							<br>
-							<br>			  
-							<h4 class="centered"><strong id="services_description_1"></strong></h4>
-							<br>
-							<h4 class="centered" id="services_review_1"></h4><h4 class="centered" ><strong id="services_author_1"></strong></h4>
-					</div>
-					<div class="col-lg-2"></div></div>
-				</div>
-				<br>
-				<br>
-				<div class="row">
-					<div class="col-lg-2"></div>
-				
-					<div class="col-lg-8">
-							<h1 class="centered">
-								<a href="https://www.eturnity.com">
-							    <img class="img" src="assets/img/eturnity.png" alt="Eturnity" title="Eturnity" height="33" width="300"></img>
-								</a>
-							</h1>
-							<br>
-							<br>			  
-							<h4 class="centered"><strong id="services_description_2"></strong></h4>
-							<br>
-							<h4 class="centered" id="services_review_2"></h4><h4 class="centered" ><strong id="services_author_2"></strong></h4>
-					</div>
-					<div class="col-lg-2"></div>
-				</div>
-				<br>
-				<br>
-				<div class="row">
-					<div class="col-lg-2"></div>
-						
-					<div class="col-lg-8">
-							<h1 class="centered">
-								<a href="https://realcount.pro">
-								  <img class="img" src="assets/img/realcount.png" alt="RealCount Pro" title="RealCount Pro" height="48" width="304"></img>
-							  </a>
-							</h1>
-							<br>
-							<br>			  
-							<h4 class="centered"><strong id="services_description_3"></strong></h4>
-							<br>
-							<h4 class="centered" id="services_review_3"></h4><h4 class="centered" ><strong id="services_author_3"></strong></h4>
-					</div>		   
-					<div class="col-lg-2"></div>
-				</div>
-				<br>
-				<br>
-				<div class="row">
-					<div class="col-lg-2"></div>
-						
-					<div class="col-lg-8">
-							<h1 class="centered">
-								<a href="https://boulderseomarketing.com/">
-								  <img class="img" src="assets/img/bsm-logo.png" alt="Boulder SEO Marketing" title="Boulder SEO Marketing" height="48" width="304"></img>
-							  </a>
-							</h1>
-							<h1 class="centered">
-								<a href="https://brain.bsmcopilot.ai/login">
-								  <img class="img" src="assets/img/bsmcopilot.png" alt="BSM Copilot AI" title="BSM Copilot AI" height="100" width="300"></img>
-							  </a>
-							</h1>
-							<br>
-							<br>			  
-							<h4 class="centered"><strong id="services_description_4"></strong></h4>
-							<br>
-							<h4 class="centered" id="services_review_4"></h4><h4 class="centered" ><strong id="services_author_4"></strong></h4>
-					</div>		   
-					<div class="col-lg-2"></div>
-				</div>
-			</div>
-		</div>
+    <!-- Divider 2 -->
+    <section class="section-divider divider2">
+      <div class="container" data-animation="animate__fadeIn">
+        <h1 id="divider_title_2" class="fw-bold mb-4"></h1>
+        <hr class="divider-light">
+        <p id="divider_description_2" class="lead"></p>
+      </div>
+    </section>
 
-		<!-- ==== SECTION DIVIDER2 -->
-		<section class="section-divider textdivider divider2">
-			<div class="container">
-				<h1 id="divider_title_2"></h1>
-				<hr>
-				<p id="divider_description_2"></p>
-			</div><!-- container -->
-		</section><!-- section -->
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="fw-bold mb-4" id="portfolio_title" data-animation="animate__fadeInUp"></h2>
+            <hr class="divider">
+          </div>
+        </div>
+        
+        <div class="row">
+          <!-- Portfolio Item 1 -->
+          <div class="col-md-4 mb-4" data-animation="animate__fadeInUp">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/folio01.jpg" alt="" class="portfolio-img">
+              <div class="portfolio-overlay">
+                <h5 class="portfolio-title" id="portfolio_name_1"></h5>
+                <a data-bs-toggle="modal" href="#myModal" class="btn btn-light portfolio-btn" id="portfolio_take_a_look"></a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Portfolio Item 2 -->
+          <div class="col-md-4 mb-4" data-animation="animate__fadeInUp" style="animation-delay: 0.2s">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/folio02.jpg" alt="" class="portfolio-img">
+              <div class="portfolio-overlay">
+                <h5 class="portfolio-title" id="portfolio_name_2"></h5>
+                <a data-bs-toggle="modal" href="#myModal2" class="btn btn-light portfolio-btn" id="portfolio_take_a_look_2"></a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Portfolio Item 3 -->
+          <div class="col-md-4 mb-4" data-animation="animate__fadeInUp" style="animation-delay: 0.4s">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/folio08.jpg" alt="" class="portfolio-img">
+              <div class="portfolio-overlay">
+                <h5 class="portfolio-title" id="portfolio_name_3"></h5>
+                <a data-bs-toggle="modal" href="#myModal3" class="btn btn-light portfolio-btn" id="portfolio_take_a_look_3"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Portfolio Modals -->
+      <!-- Modal 1 -->
+      <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="portfolio_name_1"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-4" src="assets/img/portfolio/folio01.jpg" alt="">
+              <p id="portfolio_description_1"></p>
+              <p><a href="https://artavita.site" target="_blank" class="btn btn-primary" id="portfolio_visite_site"></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal 2 -->
+      <div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="portfolio_name_2"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-4" src="assets/img/portfolio/folio02.jpg" alt="">
+              <p id="portfolio_description_2"></p>
+              <p><a href="https://github.com/papayalabs/pymenta" target="_blank" class="btn btn-primary" id="portfolio_visite_site_2"></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal 3 -->
+      <div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="portfolio_name_3"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-4" src="assets/img/portfolio/folio08.jpg" alt="">
+              <p id="portfolio_description_3"></p>
+              <p><a href="http://homeoagora.github.io" target="_blank" class="btn btn-primary" id="portfolio_visite_site_3"></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		
-		
-		<!-- ==== PORTFOLIO ==== -->
-		<div class="container" id="portfolio" name="portfolio">
-		<br>
-			<div class="row">
-				<br>
-				<h1 class="centered" id="portfolio_title"></h1>
-				<hr>
-				<br>
-				<br>
-			</div><!-- /row -->
-			<div class="container">
-				<div class="row">	
-				
-					<!-- PORTFOLIO IMAGE 1 -->
-					<div class="col-md-4 ">
-						<div class="grid mask">
-							<figure>
-								<img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
-								<figcaption>
-									<h5 id="portfolio_name_1"></h5>
-									<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg" id="portfolio_take_a_look"></a>
-								</figcaption><!-- /figcaption -->
-							</figure><!-- /figure -->
-						</div><!-- /grid-mask -->
-					</div><!-- /col -->
-				
-				
-				  <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-						a modal for each of your projects. -->
-						
-					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									<h4 class="modal-title" id="portfolio_name_1"></h4>
-								</div>
-								<div class="modal-body">
-									<p><img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt=""></p>
-									<p id="portfolio_description_1"></p>
-									<p ><b><a href="https://artavita.site" id="portfolio_visite_site"></a></b></p>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal"><span class="fa fa-close"></span></button>
-								</div>
-							</div><!-- /.modal-content -->
-						</div><!-- /.modal-dialog -->
-					</div><!-- /.modal -->
-				
-				
-				  <!-- PORTFOLIO IMAGE 2 -->
-					<div class="col-md-4">
-							<div class="grid mask">
-							<figure>
-								<img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
-								<figcaption>
-									<h5 id="portfolio_name_2"></h5>
-									<a data-toggle="modal" href="#myModal2" class="btn btn-primary btn-lg" id="portfolio_take_a_look_2"></a>
-								</figcaption><!-- /figcaption -->
-							</figure><!-- /figure -->
-							</div><!-- /grid-mask -->
-					</div><!-- /col -->
+    <!-- Contact Section -->
+    <section class="section-divider divider6" id="contact">
+      <div class="container" data-animation="animate__fadeIn">
+        <h1 id="made_in" class="fw-bold mb-4"></h1>
+        <hr class="divider-light">
+        <div class="mt-5">
+          <a href="skype:papayalabs?call" class="contact-icon"><i class="fab fa-skype"></i></a>
+          <a href="mailto:admin@papayalabs.io" class="contact-icon"><i class="fas fa-envelope"></i></a>
+          <a href="http://www.twitter.com/papayalabs" class="contact-icon"><i class="fab fa-twitter"></i></a>
+          <a href="http://www.github.com/papayalabs" class="contact-icon"><i class="fab fa-github"></i></a>
+          <a href="http://stackoverflow.com/users/4663917/papayalabs" class="contact-icon"><i class="fab fa-stack-overflow"></i></a>
+        </div>
+      </div>
+    </section>
 
+    <!-- Footer -->
+    <footer id="footerwrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <img class="img-fluid me-3" src="assets/img/police.svg" alt="" style="height: 30px;">
+            <img class="img-fluid" src="assets/img/eu.svg" alt="" style="height: 30px;">
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p class="mb-0" id="created_by"></p>
+            <p class="mb-0" id="address"></p>
+            <p class="mb-0" id="register_code"></p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-				 <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-				      a modal for each of your projects. -->
-				      
-					<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									<h4 class="modal-title" id="portfolio_name_2"></h4>
-								</div>
-								<div class="modal-body">
-									<p><img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt=""></p>
-									<p id="portfolio_description_2"></p>
-									<p><b><a href="https://github.com/papayalabs/pymenta" id="portfolio_visite_site_2"></a></b></p>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal"><span class="fa fa-close"></span></button>
-								</div>
-							</div><!-- /.modal-content -->
-						</div><!-- /.modal-dialog -->
-					</div><!-- /.modal -->
-
-					<!-- PORTFOLIO IMAGE 3 -->
-					<div class="col-md-4">
-				    <div class="grid mask">
-							<figure>
-								<img class="img-responsive" src="assets/img/portfolio/folio08.jpg" alt="">
-								<figcaption>
-									<h5 id="portfolio_name_3"></h5>
-									<a data-toggle="modal" href="#myModal3" class="btn btn-primary btn-lg" id="portfolio_take_a_look_3"></a>
-								</figcaption><!-- /figcaption -->
-							</figure><!-- /figure -->
-				    </div><!-- /grid-mask -->
-					</div><!-- /col -->
-
-				 <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-				      a modal for each of your projects. -->
-
-				  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				    <div class="modal-dialog">
-				      <div class="modal-content">
-				        <div class="modal-header">
-				          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				          <h4 class="modal-title" id="portfolio_name_3"></h4>
-				        </div>
-				        <div class="modal-body">
-				          <p><img class="img-responsive" src="assets/img/portfolio/folio08.jpg" alt=""></p>
-				          <p id="portfolio_description_3"></p>
-				          <p><b><a href="http://homeoagora.github.io" id="portfolio_visite_site_3"></a></b></p>
-				        </div>
-				        <div class="modal-footer">
-				          <button type="button" class="btn btn-default" data-dismiss="modal"><span class="fa fa-close"></span></button>
-				        </div>
-				      </div><!-- /.modal-content -->
-				    </div><!-- /.modal-dialog -->
-				  </div><!-- /.modal -->
-				</div><!-- /row -->
-			</div><!-- /container -->
-			<br>
-			<br>
-	  </div><!-- /container -->
-
-		
-		<!-- ==== SECTION DIVIDER6 ==== -->
-		<section class="section-divider textdivider divider6">
-			<div class="container" id="contact" name="contact">
-				<h1 id="made_in"></h1>
-				<hr>
-				<h1><a class="fa fa-skype" href="skype:papayalabs?call"></a> | <a class="icon icon-envelop" href="mailto:admin@papayalabs.io"></a> | <a class="icon icon-twitter" href="http://www.twitter.com/papayalabs"></a> | <a class="icon icon-github" href="http://www.github.com/papayalabs"></a>  | <a class="fa fa-stack-overflow" href="http://stackoverflow.com/users/4663917/papayalabs"></a></h1>
-			</div><!-- container -->
-		</section><!-- section -->
-<!--		
-		<div class="container" id="contact" name="contact">
-			<div class="row">
-			<br>
-				<h1 class="centered" id="thanks"></h1>
-				<hr>
-				<br>
-				<br>
-				<div class="col-lg-4">
-					<h3 id="contact_info"></h3>
-					<p>	<span class="fa fa-skype"></span> <a href="skype:papayalabs?call"> papayalabs </a> <br/>
-						<span class="icon icon-envelop"></span> <a href="mailto:admin@papayalabs.io"> admin@papayalabs.io</a> <br/>
-						<span class="icon icon-twitter"></span> <a href="http://www.twitter.com/papayalabs"> @papayalabs </a> <br/>
-						<span class="icon icon-github"></span> <a href="http://www.github.com/papayalabs"> Papaya Labs </a> <br/>
-     					<span class="fa fa-stack-overflow"></span> <a href="http://stackoverflow.com/users/4663917/papayalabs"> papayalabs </a> <br/>
-					</p>
-				</div>
-				
-				<div class="col-lg-4">
-					<h3 id="title_1"></h3>
-					<p id="description_1"></p>
-				</div>
-				
-				<div class="col-lg-4">
-					<h3 id="title_2"></h3>
-					<p id="description_2"></p>
-				</div>
-
-			</div><
-		
-		</div> -->
-
-		<div id="footerwrap">
-			<div class="container">
-				<img class="img-color" src="assets/img/police.svg" alt="">
-				<img class="img-color" src="assets/img/eu.svg" alt="">
-				<h4 id="created_by"></h4>
-				<h4 id="address"></h4>
-				<h4 id="register_code"></h4>
-			</div>
-		</div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/retina.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
-  <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
-	<script type="text/javascript" src="assets/js/i18next-1.10.1.js"></script>
-  <script type="text/javascript" src="assets/js/translation.js"></script>
-
-
-	
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/jquery-func.js"></script>
+    <script src="assets/js/i18next-1.10.1.js"></script>
+    <script src="assets/js/translation.js"></script>
+    
+    <!-- Navbar scroll effect -->
+    <script>
+      $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+          $('.navbar').addClass('scrolled');
+        } else {
+          $('.navbar').removeClass('scrolled');
+        }
+      });
+    </script>
   </body>
 </html>
