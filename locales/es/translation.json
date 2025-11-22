@@ -64,7 +64,9 @@
     "name_2": "PYMENTA",
     "description_2": "Pymenta es un Sistema ERP muy simple diseñado para trabajar en la nube que permite a las pequeñas compañias crear, administrar e imprimir documentos ( facturas, notas, presupuestos, notas de creditos, etc). Tambien puede administrar almacenes, proveedores, clientes, productos e inventario.",
     "name_3": "HOMEOAGORA",
-    "description_3": "Homeoagora está diseñado para brindar a los médicos homeópatas y al paciente un espacio para interactuar"  
+    "description_3": "Homeoagora está diseñado para brindar a los médicos homeópatas y al paciente un espacio para interactuar",
+    "name_4": "PAPAYA CHAT",
+    "description_4": "PapayaChat es un software privado que trabaja con diferentes asistentes para crear procesos rápidos."  
    },
   "contact": {
     "address": "Lõõtsa tn 5-11, 11415, Tallinn, Estonia. Correo: admin@papayalabs.io",

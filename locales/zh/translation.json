@@ -63,7 +63,10 @@
     "name_2": "PYMENTA",
     "description_2": "Pymenta是一个非常简单的云ERP系统，旨在在云中运行，并允许小型公司创建、管理和打印文档（发票、票据、报价、信用等）。您可以管理仓库、供应商、客户、产品和库存。",
     "name_3": "HOMEOAGORA",
-    "description_3": "Homeoagora旨在为顺势疗法医生和病患提供互动空间"
+    "description_3": "Homeoagora旨在为顺势疗法医生和病患提供互动空间",
+    "name_4": "PAPAYA CHAT",
+    "description_4": "PapayaChat是一款私人軟體，可與不同的助理配合使用，以建立提示流程"
+
   },
   "contact": {
     "address": "Lõõtsa tn 5-11, 11415, 塔林, 爱沙尼亚. 邮件: admin@papayalabs.io",

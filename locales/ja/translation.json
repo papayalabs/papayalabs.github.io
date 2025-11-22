@@ -64,7 +64,9 @@
     "name_2": "PYMENTA",
     "description_2": "Pymentaは、クラウドで稼働し、小規模な企業が文書（請求書、メモ、見積、クレジットなど）を作成、管理、印刷できるように設計された非常にシンプルなクラウドERPシステムです。倉庫、プロバイダー、クライアント、製品、在庫を管理できます。",
     "name_3": "HOMEOAGORA",
-    "description_3": "Homeoagoraは、ホメオパシー医師と患者が交流するためのスペースを提供します"
+    "description_3": "Homeoagoraは、ホメオパシー医師と患者が交流するためのスペースを提供します",
+    "name_4": "PAPAYA CHAT",
+    "description_4": "PapayaChatは、さまざまなアシスタントと連携してプロンプトプロセスを作成するプライベートソフトウェアです." 
   },
   "contact": {
     "address": "Lõõtsa tn 5-11, 11415, タリン, エストニア. メール: admin@papayalabs.io",
